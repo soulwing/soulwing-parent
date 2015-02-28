@@ -396,7 +396,7 @@
             <configuration>
               <serverId>ossrh</serverId>
               <nexusUrl>${ossrh.url}</nexusUrl>
-              <autoReleaseAfterClose>false</autoReleaseAfterClose>
+              <autoReleaseAfterClose>true</autoReleaseAfterClose>
             </configuration>
           </plugin>
           <plugin>
