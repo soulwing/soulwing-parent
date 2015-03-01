@@ -445,7 +445,6 @@
             <executions>
               <execution>
                 <id>download-licenses</id>
-                <phase>generate-sources</phase>
                 <goals>
                   <goal>download-licenses</goal>
                   <goal>aggregate-add-third-party</goal>
