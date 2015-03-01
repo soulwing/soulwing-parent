@@ -440,19 +440,6 @@
             </executions>
           </plugin>
           <plugin>
-            <groupId>org.codehaus.mojo</groupId>
-            <artifactId>license-maven-plugin</artifactId>
-            <executions>
-              <execution>
-                <id>download-licenses</id>
-                <goals>
-                  <goal>download-licenses</goal>
-                  <goal>aggregate-add-third-party</goal>
-                </goals>
-              </execution>
-            </executions>
-          </plugin>
-          <plugin>
             <artifactId>maven-release-plugin</artifactId>
             <configuration>
               <tagNameFormat>@{project.version}</tagNameFormat>
