@@ -469,7 +469,7 @@
             <artifactId>maven-javadoc-plugin</artifactId>
             <executions>
               <execution>
-                <id>attach-javdocs</id>
+                <id>attach-javadocs</id>
                 <phase>verify</phase>
                 <goals>
                   <goal>jar</goal>
@@ -501,6 +501,7 @@
               <autoVersionSubmodules>true</autoVersionSubmodules>
               <mavenExecutorId>forked-path</mavenExecutorId>
               <releaseProfiles>release</releaseProfiles>
+              <pushChanges>false</pushChanges>
               <goals>deploy</goals>
             </configuration>
           </plugin>
