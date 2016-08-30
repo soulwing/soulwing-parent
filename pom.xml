@@ -472,8 +472,8 @@
                 <id>attach-javadocs</id>
                 <phase>verify</phase>
                 <goals>
-                  <goal>jar</goal>
-                  <goal>test-jar</goal>
+                  <goal>aggregate-jar</goal>
+                  <goal>test-aggregate-jar</goal>
                 </goals>
               </execution>
             </executions>
