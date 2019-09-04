@@ -449,6 +449,7 @@
             <configuration>
               <serverId>ossrh</serverId>
               <nexusUrl>${ossrh.url}</nexusUrl>
+              <repository>maven-releases</repository>
               <autoReleaseAfterClose>true</autoReleaseAfterClose>
             </configuration>
           </plugin>
