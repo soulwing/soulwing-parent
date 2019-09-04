@@ -138,8 +138,8 @@
         </plugin>
         <plugin>
           <groupId>org.sonatype.plugins</groupId>
-          <artifactId>nexus-staging-maven-plugin</artifactId>
-          <version>1.6.5</version>
+          <artifactId>nxrm3-maven-plugin</artifactId>
+          <version>1.0.2</version>
         </plugin>
         <plugin>
           <groupId>com.github.github</groupId>
