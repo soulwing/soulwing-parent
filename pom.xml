@@ -138,8 +138,8 @@
         </plugin>
         <plugin>
           <groupId>org.sonatype.plugins</groupId>
-          <artifactId>nxrm3-maven-plugin</artifactId>
-          <version>1.0.2</version>
+          <artifactId>nexus-staging-maven-plugin</artifactId>
+          <version>1.6.7</version>
         </plugin>
         <plugin>
           <groupId>com.github.github</groupId>
@@ -444,12 +444,11 @@
         <plugins>
           <plugin>
             <groupId>org.sonatype.plugins</groupId>
-            <artifactId>nxrm3-maven-plugin</artifactId>
+            <artifactId>nexus-staging-maven-plugin</artifactId>
             <extensions>true</extensions>
             <configuration>
               <serverId>ossrh</serverId>
               <nexusUrl>${ossrh.url}</nexusUrl>
-              <repository>maven-releases</repository>
               <autoReleaseAfterClose>true</autoReleaseAfterClose>
             </configuration>
           </plugin>
