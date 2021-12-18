@@ -39,7 +39,7 @@
     <hamcrest.version>1.3</hamcrest.version>
     <jmock.version>2.8.2</jmock.version>
     <slf4j.version>1.7.7</slf4j.version>
-    <ossrh.url>https://oss.sonatype.org/</ossrh.url>
+    <ossrh.url>https://s01.oss.sonatype.org/</ossrh.url>
   </properties>
   <build>
     <pluginManagement>
